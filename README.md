@@ -1,5 +1,5 @@
 !SHAKE! is a physical model of a hypothetical shaker. 
-It take the white noise signal and creates a bandpass filter around a central frequency that you define with slight variations.
+It takes the white noise signal and creates a bandpass filter around a central frequency that you define with slight variations.
 There are 8 voices (or instances) of that filtered noise, each slightly different in central frequency and with a slight delay.
 This imitates the sound of multiple grains within a shaker like maraca, caxixi or egg shaker (e.g.).
 The time in miliseconds defines the duration of one cycle, which consists of two shakes, one that goes to maximum, and the second one slightly softer;
