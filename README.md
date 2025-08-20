@@ -5,7 +5,7 @@ This imitates the sound of multiple grains within a shaker like maraca, caxixi o
 The time in miliseconds defines the duration of one cycle, which consists of two shakes, one that goes to maximum, and the second one slightly softer;
 this imitates the natural sound of a shaker, with initial action and the rebounce (as you are moving hand back and forth).
 Inside the continuous flow of the noise~ object is interrupted via train~ object, which is constantly oscillating to imitate the chaotic
-behavious of multiple grains within the shaker - the BAGN button can reset it to a set of new random values.
+behavious of multiple grains within the shaker - the BANG button can reset it to a set of new random values.
 Additionally, you can control minor dynamic oscillations by specifying two cycle~ oscillators, which then go between 0dB and -15dB,
 hence mimicking the slight imprecissions of the loudness of the shaking pattern (as is normal with human performer).
 Basically, instead of searching for hours for recordings of shakers of various timbres, you can create yourself an imitation of a shaker
